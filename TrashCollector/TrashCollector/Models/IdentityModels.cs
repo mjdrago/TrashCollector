@@ -29,5 +29,8 @@ namespace TrashCollector.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<UserAccount> UserAccounts { get; set; }
+
     }
 }
