@@ -40,7 +40,7 @@ namespace TrashCollector.Models
                 return string.Format("{0} {1} {2}", this.FirstName, this.MiddleInitial, this.LastName);
             }
         }
-        //public virtual ApplicationUser User { get; set; }
-        //public string ApllicationUserId { get; set; }
+        public virtual ApplicationUser User { get; set; }
+        public string  ApplicationUserId { get; set; }
     }
 }

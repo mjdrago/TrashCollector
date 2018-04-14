@@ -209,6 +209,22 @@
     <Compile Include="Migrations\201804130055106_Adjusting Table Parameters.Designer.cs">
       <DependentUpon>201804130055106_Adjusting Table Parameters.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804141528078_FinishingRegisterFunction.cs" />
+    <Compile Include="Migrations\201804141528078_FinishingRegisterFunction.Designer.cs">
+      <DependentUpon>201804141528078_FinishingRegisterFunction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804141543493_AdjustingForeignKey.cs" />
+    <Compile Include="Migrations\201804141543493_AdjustingForeignKey.Designer.cs">
+      <DependentUpon>201804141543493_AdjustingForeignKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804141553368_RemovingRegisterInformation.cs" />
+    <Compile Include="Migrations\201804141553368_RemovingRegisterInformation.Designer.cs">
+      <DependentUpon>201804141553368_RemovingRegisterInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804141557108_TryingUserAttachementAgain.cs" />
+    <Compile Include="Migrations\201804141557108_TryingUserAttachementAgain.Designer.cs">
+      <DependentUpon>201804141557108_TryingUserAttachementAgain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -301,6 +317,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804130055106_Adjusting Table Parameters.resx">
       <DependentUpon>201804130055106_Adjusting Table Parameters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804141528078_FinishingRegisterFunction.resx">
+      <DependentUpon>201804141528078_FinishingRegisterFunction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804141543493_AdjustingForeignKey.resx">
+      <DependentUpon>201804141543493_AdjustingForeignKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804141553368_RemovingRegisterInformation.resx">
+      <DependentUpon>201804141553368_RemovingRegisterInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804141557108_TryingUserAttachementAgain.resx">
+      <DependentUpon>201804141557108_TryingUserAttachementAgain.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

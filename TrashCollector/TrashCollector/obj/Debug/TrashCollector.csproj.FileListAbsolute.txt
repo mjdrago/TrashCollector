@@ -83,3 +83,7 @@ C:\Users\mario\Documents\devCodeCamp\Projects\10 - Trash Collector\TrashCollecto
 C:\Users\mario\Documents\devCodeCamp\Projects\10 - Trash Collector\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.InitialMigrationAndUserAccountTable.resources
 C:\Users\mario\Documents\devCodeCamp\Projects\10 - Trash Collector\TrashCollector\TrashCollector\obj\Debug\TrashCollector.csproj.GenerateResource.Cache
 C:\Users\mario\Documents\devCodeCamp\Projects\10 - Trash Collector\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.AdjustingTableParameters.resources
+C:\Users\mario\Documents\devCodeCamp\Projects\10 - Trash Collector\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.FinishingRegisterFunction.resources
+C:\Users\mario\Documents\devCodeCamp\Projects\10 - Trash Collector\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.AdjustingForeignKey.resources
+C:\Users\mario\Documents\devCodeCamp\Projects\10 - Trash Collector\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.RemovingRegisterInformation.resources
+C:\Users\mario\Documents\devCodeCamp\Projects\10 - Trash Collector\TrashCollector\TrashCollector\obj\Debug\TrashCollector.Migrations.TryingUserAttachementAgain.resources
