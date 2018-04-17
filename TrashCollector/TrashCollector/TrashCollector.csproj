@@ -196,6 +196,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AddressesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -225,12 +226,21 @@
     <Compile Include="Migrations\201804141557108_TryingUserAttachementAgain.Designer.cs">
       <DependentUpon>201804141557108_TryingUserAttachementAgain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201804172337511_DeliveryAddressSetup.cs" />
+    <Compile Include="Migrations\201804172337511_DeliveryAddressSetup.Designer.cs">
+      <DependentUpon>201804172337511_DeliveryAddressSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804172340177_UpdateForeignKeyOfAddress.cs" />
+    <Compile Include="Migrations\201804172340177_UpdateForeignKeyOfAddress.Designer.cs">
+      <DependentUpon>201804172340177_UpdateForeignKeyOfAddress.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Address.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Scripts\ManageViewModels.cs" />
     <Compile Include="Models\UserAccount.cs" />
-    <Compile Include="Models\UserAccountsController.cs" />
+    <Compile Include="Controllers\UserAccountsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -299,6 +309,11 @@
     <Content Include="Views\UserAccounts\Details.cshtml" />
     <Content Include="Views\UserAccounts\Edit.cshtml" />
     <Content Include="Views\UserAccounts\Index.cshtml" />
+    <Content Include="Views\Addresses\Create.cshtml" />
+    <Content Include="Views\Addresses\Delete.cshtml" />
+    <Content Include="Views\Addresses\Details.cshtml" />
+    <Content Include="Views\Addresses\Edit.cshtml" />
+    <Content Include="Views\Addresses\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -329,6 +344,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201804141557108_TryingUserAttachementAgain.resx">
       <DependentUpon>201804141557108_TryingUserAttachementAgain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804172337511_DeliveryAddressSetup.resx">
+      <DependentUpon>201804172337511_DeliveryAddressSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804172340177_UpdateForeignKeyOfAddress.resx">
+      <DependentUpon>201804172340177_UpdateForeignKeyOfAddress.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

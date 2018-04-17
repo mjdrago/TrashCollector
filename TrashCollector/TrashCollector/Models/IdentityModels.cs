@@ -32,5 +32,7 @@ namespace TrashCollector.Models
 
         public DbSet<UserAccount> UserAccounts { get; set; }
 
+        public DbSet<Address> Addresses { get; set; }
+
     }
 }
